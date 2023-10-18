@@ -12,7 +12,6 @@ import { TooltipModule } from 'ng2-tooltip-directive';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PreloaderComponent } from './components/common/preloader/preloader.component';
-import { HomeOneComponent } from './components/home-one/home-one.component';
 import { NavbarComponent } from './components/common/navbar/navbar.component';
 import { WelcomeComponent } from './components/common/welcome/welcome.component';
 import { AboutComponent } from './components/common/about/about.component';
@@ -35,8 +34,6 @@ import { WorkComponent } from './components/common/work/work.component';
 import { WhyWeDifferentComponent } from './components/common/why-we-different/why-we-different.component';
 import { ContactComponent } from './components/common/contact/contact.component';
 import { HomeTwoComponent } from './components/home-two/home-two.component';
-import { HomeThreeComponent } from './components/home-three/home-three.component';
-import { HomeFourComponent } from './components/home-four/home-four.component';
 import { HomeFiveComponent } from './components/home-five/home-five.component';
 import { ServicesTwoComponent } from './components/common/services-two/services-two.component';
 import { HomeSixComponent } from './components/home-six/home-six.component';
@@ -54,7 +51,6 @@ import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-side
     declarations: [
         AppComponent,
         PreloaderComponent,
-        HomeOneComponent,
         NavbarComponent,
         WelcomeComponent,
         AboutComponent,
@@ -77,8 +73,6 @@ import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-side
         WhyWeDifferentComponent,
         ContactComponent,
         HomeTwoComponent,
-        HomeThreeComponent,
-        HomeFourComponent,
         HomeFiveComponent,
         ServicesTwoComponent,
         HomeSixComponent,

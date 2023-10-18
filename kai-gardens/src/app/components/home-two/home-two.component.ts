@@ -3,6 +3,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 import { ViewportScroller } from '@angular/common';
 
 export interface Slide {
+	titleClass?: string;
 	link: string;
 	description: string;
 	title: string;
@@ -17,20 +18,30 @@ export interface Slide {
 })
 export class HomeTwoComponent implements OnInit {
 
+	mainLogoUrl = '/assets/img/logo/logo-main.png';
+
 	slides: Array<Slide> = [
 		{
 			caption: '',
-			title: '<h1>Kai <span>Gardens</span></h1>',
+			title: `<img src="${this.mainLogoUrl}" class="logo-main"/>`,
+			titleClass: 'logo-slide-container',
 			description: 'Custom Gardens and Landscaping',
-			link: 'work',
+			link: 'contact',
 			imageUrl: 'assets/img/garden-images/garden-1.jpg'
 		},
 		{
 			caption: 'Intimate Gardens',
-			title: '<h1>Kai <span>Gardens</span></h1>',
+			title: '<h1>The Kai <span>Garden Co.</span></h1>',
 			description: 'Gardens, layout, planting, designing',
-			link: 'work',
+			link: 'contact',
 			imageUrl: 'assets/img/garden-images/garden-2.jpg'
+		},
+		{
+			caption: 'Intimate Gardens',
+			title: '<h1>The Kai <span>Garden Co.</span></h1>',
+			description: 'Gardens, layout, planting, designing',
+			link: 'contact',
+			imageUrl: 'assets/img/garden-images/garden-3.jpg'
 		}
 	]
 
