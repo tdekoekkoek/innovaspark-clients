@@ -6,7 +6,6 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FormsModule } from '@angular/forms';
 import { CountUpModule } from 'ngx-countup';
 import { NgxTypedJsModule } from 'ngx-typed-js';
-// import {TabsModule} from 'ngx-tabset';
 import { TooltipModule } from 'ng2-tooltip-directive';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -41,8 +40,6 @@ import { HomeNineComponent } from './components/home-nine/home-nine.component';
 import { HomeElevenComponent } from './components/home-eleven/home-eleven.component';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-sidebar.component';
-import {NgxMasonryModule} from 'ngx-masonry';
-import {MasonryGalleryModule} from 'ngx-masonry-gallery';
 
 
 @NgModule({
@@ -89,9 +86,6 @@ import {MasonryGalleryModule} from 'ngx-masonry-gallery';
         CountUpModule,
         TooltipModule,
         NgxTypedJsModule,
-        // MasonryGalleryModule,
-        MasonryGalleryModule
-        //NgxMasonryModule
     ],
     providers: [],
     bootstrap: [AppComponent]
