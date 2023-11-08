@@ -19,12 +19,12 @@
                 <div class="single-work" *ngFor="let photo of visiblePhotos">
                     <img [src]="photo.imageUrl" [alt]="photo.alt">
                     <div class="work-content">
-                        <h3>Creative Design</h3>
-                        <ul>
-                            <li><a routerLink="/">Design</a></li>
-                            <li> . </li>
-                            <li><a routerLink="/">Brand</a></li>
-                        </ul>
+                        <a (click)="onClick('contact')"><h4>Creative Landscapes and Gardens</h4></a>
+<!--                        <ul>-->
+<!--                            <li><a routerLink="/">Contact</a></li>-->
+<!--&lt;!&ndash;                            <li> . </li>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <li><a routerLink="/">Brand</a></li>&ndash;&gt;-->
+<!--                        </ul>-->
                     </div>
                 </div>
 
