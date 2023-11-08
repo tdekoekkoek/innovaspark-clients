@@ -36,16 +36,14 @@ import { ContactComponent } from './components/common/contact/contact.component'
 import { HomeTwoComponent } from './components/home-two/home-two.component';
 import { HomeFiveComponent } from './components/home-five/home-five.component';
 import { ServicesTwoComponent } from './components/common/services-two/services-two.component';
-import { HomeSixComponent } from './components/home-six/home-six.component';
-import { HomeSevenComponent } from './components/home-seven/home-seven.component';
 import { HomeEightComponent } from './components/home-eight/home-eight.component';
 import { HomeNineComponent } from './components/home-nine/home-nine.component';
-import { HomeTenComponent } from './components/home-ten/home-ten.component';
 import { HomeElevenComponent } from './components/home-eleven/home-eleven.component';
-import { HomeTwelveComponent } from './components/home-twelve/home-twelve.component';
-import { HomeThirteenComponent } from './components/home-thirteen/home-thirteen.component';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-sidebar.component';
+import {NgxMasonryModule} from 'ngx-masonry';
+import {MasonryGalleryModule} from 'ngx-masonry-gallery';
+
 
 @NgModule({
     declarations: [
@@ -75,14 +73,9 @@ import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-side
         HomeTwoComponent,
         HomeFiveComponent,
         ServicesTwoComponent,
-        HomeSixComponent,
-        HomeSevenComponent,
         HomeEightComponent,
         HomeNineComponent,
-        HomeTenComponent,
         HomeElevenComponent,
-        HomeTwelveComponent,
-        HomeThirteenComponent,
         BlogDetailsComponent,
         DemoSidebarComponent,
     ],
@@ -95,7 +88,10 @@ import { DemoSidebarComponent } from './components/common/demo-sidebar/demo-side
         FormsModule,
         CountUpModule,
         TooltipModule,
-        NgxTypedJsModule
+        NgxTypedJsModule,
+        // MasonryGalleryModule,
+        MasonryGalleryModule
+        //NgxMasonryModule
     ],
     providers: [],
     bootstrap: [AppComponent]

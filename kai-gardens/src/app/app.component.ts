@@ -23,7 +23,7 @@ export class AppComponent {
     }
 
     ngOnInit(){
-        this.recallJsFuntions();
+        // this.recallJsFuntions();
     }
 
     recallJsFuntions() {

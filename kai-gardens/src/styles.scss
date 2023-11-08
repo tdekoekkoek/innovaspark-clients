@@ -26,7 +26,7 @@ body {
 ul {
     padding-left: 0;
     margin-bottom: 0;
-    
+
     li {
         list-style: none;
     }
@@ -307,15 +307,15 @@ Preloader CSS
 @keyframes sk-foldCubeAngle {
 	0%, 10% {
 		transform: perspective(140px) rotateX(-180deg);
-		opacity: 0; 
-	} 
+		opacity: 0;
+	}
 	25%, 75% {
 		transform: perspective(140px) rotateX(0deg);
-		opacity: 1; 
-	} 
+		opacity: 1;
+	}
 	90%, 100% {
 		transform: perspective(140px) rotateY(180deg);
-		opacity: 0; 
+		opacity: 0;
 	}
 }
 
@@ -526,7 +526,7 @@ Main Header CSS
             }
             .navbar-toggler {
                 color: var(--blackColor);
-    
+
                 .burger-menu {
                     span {
                         background: var(--blackColor);
@@ -562,7 +562,7 @@ Main Banner CSS
         background: var(--blackColor);
         opacity: .58;
     }
-    &.gradient-bg {        
+    &.gradient-bg {
         &::before {
             background: linear-gradient(90deg, #232021 0, #0093c8);
             opacity: .80;
@@ -571,12 +571,6 @@ Main Banner CSS
 }
 .item-bg-one {
 	background-image: url(assets/img/garden-images/garden-1.jpg);
-}
-.item-bg-two {
-	background-image: url(assets/img/main-bg-2.jpg);
-}
-.item-bg-three {
-	background-image: url(assets/img/main-bg-3.jpg);
 }
 .main-banner-text {
     position: relative;
@@ -686,7 +680,7 @@ Main Banner CSS
                 font-size: 25px;
                 color: var(--whiteColor);
                 transition: var(--transition);
-    
+
                 &.owl-next {
                     left: auto;
                     right: 40px;
@@ -884,16 +878,6 @@ Welcome Area CSS
 /*==============================
 About Area CSS
 ==============================*/
-.about-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(assets/img/bg1.jpg);
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    };
-}
 .about-content {
     .section-title {
         margin-bottom: 20px;
@@ -1029,22 +1013,9 @@ Strategy Area CSS
         }
     }
 }
-.strategy-image {
-    width: 100%;
-    height: 100%;
-    background: {
-        image: url(assets/img/about-strategy.jpg);
-        size: cover;
-        position: center center;
-        repeat: no-repeat;
-    };
-    img {
-        display: none;
-    }
-}
 .strategy-content {
     padding-left: 35px;
-    
+
     .section-title {
         margin-bottom: 20px;
         padding-left: 0;
@@ -1085,14 +1056,6 @@ Strategy Area CSS
 /*==============================
 Who We Are Area CSS
 ==============================*/
-.who-we-are-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(assets/img/bg2.jpg);
-        position: center center;
-    };
-}
 .single-who-we-are {
     margin-bottom: 30px;
 	position: relative;
@@ -1172,27 +1135,6 @@ Who We Are Area CSS
 /*==============================
 CTA Area CSS
 ==============================*/
-.cta-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(assets/img/ctr-bg.jpg);
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    };
-    &::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        background: var(--blackColor);
-        opacity: .60;
-    }
-}
 .cta-content {
     text-align: center;
 
@@ -1233,7 +1175,7 @@ CTA Area CSS
         .view-work {
             background: transparent;
             border-color: var(--whiteColor);
-    
+
             &:hover, &:focus {
                 border-color: var(--mainColor) !important;
                 background: var(--mainColor);
@@ -1253,11 +1195,11 @@ Skill Area CSS
     .skills-list {
         .skill-item {
             margin-bottom: 25px;
-        
+
             .skill-header {
                 position: relative;
                 margin-bottom: 10px;
-    
+
                 .skill-title {
                     margin-bottom: 0;
                     font: {
@@ -1282,13 +1224,13 @@ Skill Area CSS
             .skill-bar {
                 position: relative;
                 width: 100%;
-    
+
                 .bar-inner {
                     position: relative;
                     width: 100%;
                     border-bottom: 7px solid var(--blackColor);
                     border-radius: 30px;
-    
+
                     .bar {
                         position: absolute;
                         left: 0px;
@@ -1354,59 +1296,14 @@ Skill Area CSS
     }
 }
 @keyframes animate-positive {
-    0% { 
-        width: 0; 
+    0% {
+        width: 0;
     }
 }
 
 /*==============================
 Fun Facts Area CSS
 ==============================*/
-.funfacts-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(assets/img/funfact-bg.jpg);
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    };
-    &::before {
-        content: '';
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: var(--blackColor);
-        opacity: .60;
-    }
-}
-.funfact {
-	position: relative;
-    padding-left: 65px;
-    margin-bottom: 30px;
-    
-    i {
-        font-size: 50px;
-        color: var(--mainColor);
-        position: absolute;
-        left: 0;
-        top: 2px;
-    }
-    h3 {
-        color: var(--whiteColor);
-        margin-bottom: 5px;
-        font: {
-            size: 45px;
-            weight: 600;
-        };
-    }
-    p {
-        color: var(--whiteColor);
-        font-size: 16px;
-    }
-}
 
 /*==============================
 Team Area CSS
@@ -1541,69 +1438,6 @@ How We Work Area CSS
         size: contain;
         repeat: repeat;
     };
-}
-.single-how-work {
-    transition: var(--transition);
-    margin-bottom: 30px;
-    position: relative;
-
-    .icon {
-        width: 75px;
-        height: 75px;
-        position: relative;
-        text-align: center;
-        font-size: 30px;
-        color: var(--mainColor);
-        transition: var(--transition);
-        margin-bottom: 28px;
-        border: {
-            width: 2px;
-            style: dashed;
-            color: var(--mainColor);
-            radius: 50%;
-        };
-        i {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-    }
-    &::before {
-        content: '';
-        position: absolute;
-        right: 75px;
-        top: 10px;
-        width: 110px;
-        height: 75px;
-        transform: rotate(-15deg);
-        background: {
-            position: center center;
-            size: cover;
-            repeat: no-repeat;
-            image: url(assets/img/black-arrow.png);
-        };
-    }
-    h3 {
-        margin-bottom: 10px;
-        font: {
-            size: 21px;
-            weight: 600;
-        };
-    }
-    p {
-        font-size: 15.5px;
-    }
-    &:hover {
-        transform: translateY(-5px);
-
-        .icon {
-            background-color: var(--mainColor);
-            color: var(--whiteColor);
-            border-color: var(--mainColor);
-        }
-    }
 }
 .col-lg-4 {
     &:nth-child(3) {
@@ -1784,7 +1618,7 @@ Why We Are Different CSS
 }
 .why-we-different-content {
     padding-left: 10px;
-    
+
     h3 {
         margin-bottom: 15px;
         font: {
@@ -1898,6 +1732,9 @@ Work Area CSS
     margin-bottom: 30px;
     position: relative;
     text-align: center;
+    width: 500px;
+
+    animation: fadeIn 3s;
 
     &::before {
         content: '';
@@ -1986,162 +1823,13 @@ Work Area CSS
             visibility: visible;
         }
     }
-}
-
-/*==============================
-Pricing Area CSS
-==============================*/
-.pricing-area {
-    position: relative;
-    z-index: 1;
-}
-.pricingTable {
-    margin-bottom: 30px;
-    background-color: var(--whiteColor);
-	box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
-	text-align: center;
-    transition: var(--transition);
-	position: relative;
-    background: {
-        image: url(assets/img/patt.png);
-        position: center center;
-    };
-    padding: {
-        bottom: 30px;
-    };
-    &::after {
-        content: "";
-        width: 70px;
-        height: 30px;
-        background: var(--mainColor);
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        clip-path: polygon(50% 100%, 0 0, 100% 0);
-        margin: {
-            left: auto;
-            right: auto;
-        };
-    }
-    .title {
-        margin-bottom: 35px;
-        background: var(--mainColor);
-        color: var(--whiteColor);
-        text-transform: uppercase;
-        padding: {
-            top: 20px;
-            bottom: 20px;
-        };
-        font: {
-            weight: 500;
-            size: 24px;
-        };
-    }
-    .price-value {
-        margin-bottom: 25px;
-        color: var(--blackColor);
-
-        .amount {
-            display: inline-block;
-            font: {
-                size: 44px;
-                weight: 600;
-            };
-        }
-        .month {
-            display: block;
-            line-height: 16px;
-            text-transform: capitalize;
-            color: #727695;
-            margin-left: 50px;
-            font: {
-                size: 15px;
-                weight: 400;
-            };
-        }
-    }
-    .currency {
-        display: inline-block;
-        font-size: 25px;
-        vertical-align: top;
-        margin-top: 6px;
-    }
-    .pricing-content {
-        margin-bottom: 30px;
-        border: {
-            top: 1px solid #eeeeee;
-            bottom: 1px solid #eeeeee;
-        };
-        padding: {
-            top: 25px;
-            bottom: 25px;
-        };
-        li {
-            color: #727695;
-            margin-top: 16px;
-            
-            &:first-child {
-                margin-top: 0;
-            }
-            i {
-                color: var(--mainColor);
-                margin-right: 4px;
-            }
-        }
-    }
-    &:hover {
-        transform: translateY(-10px);
-    }
-}
-.col-lg-4 {
-    &:nth-child(2) {
-        .pricingTable {
-            &::after {
-                background: #424242;
-            }
-            .title {
-                background: #424242;
-                color: var(--whiteColor);
-            }
-            .pricing-content {
-                li {
-                    i {
-                        color: #424242;
-                    }
-                }
-            }
-            .btn-primary {
-                color: var(--whiteColor);
-                background-color: #424242;
-                border-color: #424242;
-
-                &:hover {
-                    background-color: transparent;
-                    color: #424242;
-                    border-color: #424242;
-                }
-            }
-        }
-    }
-}
-
-/*==============================
-FAQ Area CSS
-==============================*/
-.faq-image {
-	width: 100%;
-    height: 100%;
-    background: {
-        image: url(assets/img/faq-img.jpg);
-        size: cover;
-        position: center center;
-        repeat: no-repeat;
-    };
     img {
-        display: none;
+       height: 400px;
+       width: 800px;
     }
 }
+
+
 .faq-accordion {
     .accordion {
         .accordion-section {
@@ -2149,7 +1837,7 @@ FAQ Area CSS
             margin-bottom: 15px;
             background-color: var(--whiteColor);
             box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13);
-            
+
             .accordion-header {
                 display: block;
                 cursor: pointer;
@@ -2194,81 +1882,7 @@ FAQ Area CSS
     }
 }
 
-/*==============================
-Feedback Area CSS
-==============================*/
-.feedback-area {
-    position: relative;
-    z-index: 1;
-    background-color: #F7F5F4;
-}
-.single-feedback-item {
-    text-align: left;
-    max-width: 720px;
-    margin: {
-        left: auto;
-        right: auto;
-    };
-    p {
-        color: var(--blackColor);
-        margin-bottom: 0;
-        font: {
-            weight: 600;
-            size: 22px;
-        };
-    }
-    .info {
-        text-align: right;
-        margin-top: 50px;
-        position: relative;
-        z-index: 1;
-        padding: {
-            right: 118px;
-            bottom: 22px;
-        };
-        img {
-            width: 100px !important;
-            height: 100px;
-            display: inline-block !important;
-            border: 3px solid var(--whiteColor);
-            position: absolute;
-            right: 0;
-            bottom: 0;
-        }
-        h3 {
-            margin: {
-                bottom: 6px;
-                top: 20px;
-            };
-            font: {
-                size: 20px;
-                weight: 500;
-            };
-        }
-        span {
-            color: var(--mainColor);
-            display: block;
-            font: {
-                weight: 500;
-                size: 15px;
-            };
-        }
-        &::before {
-            content: '';
-            position: absolute;
-            right: 290px;
-            bottom: 45px;
-            width: 110px;
-            height: 75px;
-            background: {
-                position: center center;
-                size: cover;
-                repeat: no-repeat;
-                image: url(assets/img/arrow.png);
-            };
-        }
-    }
-}
+
 .feedback-slides {
     .owl-theme {
         margin-bottom: -40px;
@@ -2324,7 +1938,7 @@ Feedback Area CSS
             }
         }
         &:hover, &:focus {
-            .owl-nav {    
+            .owl-nav {
                 [class*=owl-] {
                     left: 70px;
                     opacity: 1;
@@ -2410,32 +2024,8 @@ Blog Area CSS
         box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
         border-radius: 50% 0 0 0;
     }
-    &.bg1 {
-        background-image: url(assets/img/blog-img1.jpg);
-    }
-    &.bg2 {
-        background-image: url(assets/img/blog-img2.jpg);
-    }
-    &.bg3 {
-        background-image: url(assets/img/blog-img3.jpg);
-    }
-    &.bg4 {
-        background-image: url(assets/img/blog-img4.jpg);
-    }
     &.bg5 {
         background-image: url(assets/img/blog-img5.jpg);
-    }
-    &.bg6 {
-        background-image: url(assets/img/blog-img6.jpg);
-    }
-    &.bg7 {
-        background-image: url(assets/img/blog-img7.jpg);
-    }
-    &.bg8 {
-        background-image: url(assets/img/blog-img8.jpg);
-    }
-    &.bg9 {
-        background-image: url(assets/img/blog-img9.jpg);
     }
     &:hover {
         &::before {
@@ -2455,16 +2045,6 @@ Blog Area CSS
 /*==============================
 Partner Area CSS
 ==============================*/
-.partner-area {
-    position: relative;
-    z-index: 1;
-    background: {
-        image: url(assets/img/bg1.jpg);
-        position: center center;
-        size: cover;
-        repeat: no-repeat;
-    };
-}
 .partner-item {
     margin-bottom: 30px;
     text-align: center;
@@ -2685,7 +2265,7 @@ Page Title CSS
             }
             a {
                 color: var(--whiteColor);
-                
+
                 &:hover {
                     color: var(--mainColor);
                 }
@@ -2917,7 +2497,7 @@ Blog Details Area CSS
 	padding: 25px;
 	background: var(--whiteColor);
     margin-top: 50px;
-    
+
     .title {
         margin-bottom: 25px;
     }
@@ -2933,7 +2513,7 @@ Footer Area CSS
 	text-align: center;
 	padding: 50px 0;
     background: var(--blackColor);
-    
+
     h3 {
         line-height: 22px;
         margin-bottom: 30px;
@@ -3165,7 +2745,7 @@ Sidebar Eaxmple Demo CSS
             border: none;
             padding: 0;
             display: inline-block;
-    
+
             &:hover {
                 color: var(--mainColor);
             }
@@ -3194,7 +2774,7 @@ Sidebar Eaxmple Demo CSS
         z-index: 9991;
         position: fixed;
         background-color: rgba(0, 0, 0, 0.8);
-    
+
         iframe {
             width: 850px;
             height: 475px;
@@ -3241,4 +2821,22 @@ h3 {
         color: var(--mainColor);
         font-weight: 600;
     }
+}
+
+
+.grid-item {
+    width: 200px;
+    img {
+        width: 100%;
+    }
+}
+
+/////
+.photo-grid {
+    // height: 100%;
+    margin: 0 auto;
+}
+.photo-grid:after {
+    //content: '';
+    //display: block;
 }
